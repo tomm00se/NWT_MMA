@@ -9,6 +9,7 @@
   <body>
     <div>
       <h1 class="common__title">A local's guide to Manchester</h1>
+      <!-- navbar -->
       <nav class="common__nav">
         <a class="common__nav--homepage" href="/index.html">Home</a>
         <a class="common__nav--infopage" href="/info.html">Info Page</a>
@@ -25,13 +26,15 @@
           >Co-op Live
         </a>
       </nav>
+      <!-- grid style gallery for second page -->
       <div class="info__gallery--container">
-        <!-- Row of Video + Textual -->
+        <!-- row of video + textual -->
         <section class="info__gallery--section" id="piccadilly_gardens">
           <div class="info__gallery--item-container">
             <video controls>
               <source src="assets/piccadilly_gardens.mp4" type="video/mp4" />
               Your browser does not support the video tag.
+              <!-- renders if html video tag is not supported -->
             </video>
           </div>
           <div class="info__gallery--item-container">
@@ -43,7 +46,7 @@
             </p>
           </div>
         </section>
-        <!-- Row of Image + Textual -->
+        <!-- row of image + textual -->
         <section class="info__gallery--section" id="northern_quarter">
           <div class="info__gallery--item-container">
             <p>
@@ -58,12 +61,13 @@
             <img src="/assets/northern_quarter.png" />
           </div>
         </section>
-        <!-- Row of Textual + Audio -->
+        <!-- row of textual + audio -->
         <section class="info__gallery--section" id="canal_street">
           <div class="info__gallery--item-container">
             <audio controls>
               <source src="/assets/canal_street.mp3" type="audio/mp3" />
               Your browser does not support the audio element.
+              <!-- renders if browser does not support audio html tag -->
             </audio>
           </div>
           <div class="info__gallery--item-container">
