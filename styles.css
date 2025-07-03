@@ -13,6 +13,10 @@ body {
   padding: 1rem;
 }
 
+h1 {
+  text-decoration: underline;
+}
+
 /* common styles, elements shared accross both pages */
 .common__title {
   text-align: center;
