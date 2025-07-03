@@ -104,11 +104,6 @@ body {
 .homepage__list--item:last-child {
   margin-bottom: 0;
 }
-/* on hover lift up by 2 pixels and create a lifting up effect */
-.homepage__list--item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-}
 
 .homepage__image-container {
   flex: 1;
