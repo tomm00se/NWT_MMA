@@ -224,7 +224,7 @@ body {
     display: flex;
     /* align text to be in the centre of columned nav*/
     justify-content: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border: none;
   }
 
   .homepage__content-wrapper {
@@ -245,6 +245,7 @@ body {
 
   .common__nav a {
     padding: 1rem 1rem;
+    border: none;
   }
 
   .homepage__image--item {
