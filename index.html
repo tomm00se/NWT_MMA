@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manchester!</title>
-</head>
-<body>
-<h1>A local's guide to Manchester</h1>
-<nav>
-    <a href="#" target="_blank">Home</a>
-</nav>
-<ul> <!--Create unordered (bullet pointed) list for list items-->
-    <li>Piccadily Gardens</li>
-    <li>Arndale Centre</li>
-    <li>Canal Street</li>
-    <li>Co-op Arena</li>
-    <li>Northern Quarter</li>
-</ul>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tommy Bowden - Home Page</title>
+  </head>
+  <body>
+    <h1 class="common__title">A local's guide to Manchester</h1>
+    <nav class="common__nav">
+      <a class="common__nav--homepage" href="#">Home</a>
+      <a class="common__nav--infopage" href="/info.html">Info Page</a>
+      <a
+        class="common__nav--arndale"
+        href="https://manchesterarndale.com/"
+        target="_blank"
+        >Arndale Centre
+      </a>
+      <a
+        class="common__nav--coop"
+        href="https://www.cooplive.com/"
+        target="_blank"
+        >Co-op Live
+      </a>
+    </nav>
+    <div class="homepage__content-wrapper">
+      <ul class="homepage__list--container">
+        <!--Create unordered (bullet pointed) list for list items-->
+        <li class="homepage__list--item">Arndale Centre</li>
+        <li class="homepage__list--item">Co-op Arena</li>
+        <li class="homepage__list--item">Piccadily Gardens</li>
+        <li class="homepage__list--item">Canal Street</li>
+        <li class="homepage__list--item">Northern Quarter</li>
+      </ul>
+
+      <section class="homepage__image-container">
+        <img
+          class="homepage__image--item"
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Piccadilly_Gardens_-_geograph.org.uk_-_1462705.jpg"
+          alt="Piccadily Gardens in Manchester, UK."
+        />
+        <img
+          class="homepage__image--item"
+          src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Canal_Street_-_geograph.org.uk_-_1353781.jpg"
+          alt="Canal Street in Manchester, UK."
+        /><img
+          class="homepage__image--item"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Stevenson_Square%2C_Manchester_-_geograph.org.uk_-_3758713.jpg/1920px-Stevenson_Square%2C_Manchester_-_geograph.org.uk_-_3758713.jpg"
+          alt="Graffiti on a Fence in the Northern Quarter, Manchester, UK."
+        />
+      </section>
+    </div>
+
+    <footer class="common__footer--container">
+      <h2 class="common__footer--title">Tommy Bowden</h2>
+      <p class="common__footer--text">
+        This site was created for my mid module assessment for my Network and
+        Web Technology Module at UoL.
+      </p>
+    </footer>
+  </body>
 </html>
